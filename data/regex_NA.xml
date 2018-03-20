@@ -216,7 +216,8 @@
   </standardObjectPatterns>
 
   <fieldNamePatterns>
-    <pattern>^(GLBL)_.*</pattern>
+    <!-- Regex modifed-->
+    <pattern>^(GLBL|.*)_.*</pattern>
     <description>Global or app owned field.</description>
     <approvedBy>Terry Polk</approvedBy>
   </fieldNamePatterns>
